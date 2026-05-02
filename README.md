@@ -52,8 +52,10 @@ Admin screen juga dilindungi agar tidak bisa diakses langsung.
 
 # Cara Menjalankan
 1. Install dependency
+
 npm install
-2. Jalankan aplikasi
+3. Jalankan aplikasi
+
 npx expo start
 
 
@@ -71,6 +73,7 @@ admin → bisa akses Admin Panel
 
 # Link Video Demo
 [Video Demo YouTube](https://youtube.com/shorts/z_6n6Xo-1Jo?si=WAAOXpceNDHgLGbu)
+
 [Video Demo Google Drive](https://drive.google.com/file/d/1nlS8sRlzpySrwA4yVln5uBZqEAbsWCFx/view?usp=drivesdk)
 
 
