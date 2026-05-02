@@ -86,8 +86,8 @@ npx expo start
 
 ## Link Video Demo
 
-- Video Demo Youtube : https://youtube.com/shorts/z_6n6Xo-1Jo?si=WAAOXpceNDHgLGbu
-- Video Demo GDrive : https://drive.google.com/file/d/1nlS8sRlzpySrwA4yVln5uBZqEAbsWCFx/view?usp=drivesdk
+- Video Demo Youtube : https://youtube.com/shorts/z_6n6Xo-1Jo?si=WAAOXpceNDHgLGbu 
+- Video Demo GDrive : https://drive.google.com/file/d/1nlS8sRlzpySrwA4yVln5uBZqEAbsWCFx/view?usp=drivesdk 
 
 
 ## Kesimpulan
