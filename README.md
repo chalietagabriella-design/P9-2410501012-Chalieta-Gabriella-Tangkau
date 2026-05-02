@@ -1,32 +1,31 @@
 # Auth Praktikum App
 
 Aplikasi mobile authentication modern menggunakan React Native Expo dan Firebase dengan tema UI biru laut & hijau pastel.
-
 Aplikasi ini dibuat untuk mempelajari konsep Authentication, Authorization, dan Security pada mobile app.
 
 
-## Fitur Utama
+# Fitur Utama
 
-### Authentication
+Authentication
 - Register menggunakan Firebase Authentication
 - Login menggunakan email & password
 - Email verification setelah register
 - Reset password via email
 
 
-### Security Enhancement
+Security Enhancement
 - Biometric Login (Face ID / Fingerprint)
 - Penyimpanan credential menggunakan Expo SecureStore
 - Validasi email sebelum login
 
 
-### Protected Route
+Protected Route
 - User yang belum login tidak bisa akses halaman Home
 - Redirect otomatis ke Login jika belum login
 - Session dijaga menggunakan Auth Context
 
 
-### Role-Based Authorization
+Role-Based Authorization
 Aplikasi memiliki 2 role:
 
 - **user**
@@ -34,7 +33,7 @@ Aplikasi memiliki 2 role:
 
 Role disimpan di Firestore (`users` collection)
 
-#### Behavior:
+Behavior:
 - Jika role = **admin**
   - Bisa akses **Admin Panel**
 - Jika role = **user**
@@ -43,7 +42,7 @@ Role disimpan di Firestore (`users` collection)
 Admin screen juga dilindungi agar tidak bisa diakses langsung.
 
 
-## Teknologi
+Teknologi
 
 - React Native (Expo)
 - Firebase Authentication
@@ -53,7 +52,7 @@ Admin screen juga dilindungi agar tidak bisa diakses langsung.
 - React Navigation
 
 
-## Struktur Fitur
+Struktur Fitur
 
 - Login Screen
 - Register Screen
@@ -62,7 +61,7 @@ Admin screen juga dilindungi agar tidak bisa diakses langsung.
 - Admin Screen (Role-based)
 
 
-## Cara Menjalankan
+Cara Menjalankan
 
 1. Install dependency
 ```bash
@@ -71,7 +70,7 @@ npm install
 npx expo start 
 
 
-## Fitur yang Dapat Diuji
+Fitur yang Dapat Diuji
 
 - Register → verifikasi email → login  
 - Login menggunakan email & password  
@@ -84,12 +83,12 @@ npx expo start
   - admin → bisa akses Admin Panel  
 
 
-## Link Video Demo
+Link Video Demo
 
 - Video Demo Youtube : https://youtube.com/shorts/z_6n6Xo-1Jo?si=WAAOXpceNDHgLGbu 
 - Video Demo GDrive : https://drive.google.com/file/d/1nlS8sRlzpySrwA4yVln5uBZqEAbsWCFx/view?usp=drivesdk 
 
 
-## Kesimpulan
+Kesimpulan
 
 Aplikasi ini berhasil mengimplementasikan authentication dan authorization menggunakan Firebase pada React Native. Fitur seperti register, login, email verification, reset password, biometric login, protected route, dan role-based access (admin & user) berjalan dengan baik. Selain itu, aplikasi juga memiliki UI modern dengan tema biru laut dan hijau pastel sehingga meningkatkan pengalaman pengguna.
