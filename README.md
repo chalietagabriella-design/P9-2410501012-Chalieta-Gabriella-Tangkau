@@ -54,7 +54,8 @@ Admin screen juga dilindungi agar tidak bisa diakses langsung.
 1. Install dependency
 
 npm install
-3. Jalankan aplikasi
+
+2. Jalankan aplikasi
 
 npx expo start
 
